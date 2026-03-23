@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Breezi</title>
+  <meta name="description" content="Support contact information for Breezi.">
+  <style>
+    :root {
+      --bg: #f5f7ff;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #55627a;
+      --accent: #3f6bff;
+      --accent-strong: #214dff;
+      --border: #e6ebff;
+      --shadow: 0 10px 30px rgba(26, 49, 130, 0.08);
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font);
+      color: var(--text);
+      background: radial-gradient(circle at top, #eef2ff 0%, var(--bg) 50%);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      padding: 24px 18px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.55rem, 4vw, 2rem);
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .email-box {
+      background: linear-gradient(180deg, #f0f4ff 0%, #e8efff 100%);
+      border: 1px solid #cddaff;
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 18px;
+    }
+
+    .email-label {
+      margin: 0 0 6px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-strong);
+    }
+
+    .email-link {
+      display: inline-block;
+      font-size: clamp(1.02rem, 3vw, 1.2rem);
+      font-weight: 700;
+      color: var(--accent-strong);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .email-link:hover {
+      text-decoration: underline;
+    }
+
+    .more-info-title {
+      margin: 0 0 8px;
+      font-size: 0.96rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .links {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .links li {
+      margin-bottom: 8px;
+    }
+
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .links li:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 640px) {
+      .wrap {
+        padding: 38px 22px 56px;
+      }
+
+      .card {
+        padding: 30px 28px;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1320;
+        --card: #161d2f;
+        --text: #ecf1ff;
+        --muted: #aeb9d3;
+        --accent: #8ca8ff;
+        --accent-strong: #a8beff;
+        --border: #27314f;
+        --shadow: none;
+      }
+
+      body {
+        background: radial-gradient(circle at top, #141d33 0%, var(--bg) 52%);
+      }
+
+      .email-box {
+        background: linear-gradient(180deg, #1a2645 0%, #16213c 100%);
+        border-color: #334675;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Support</h1>
+      <p class="subtitle">Need help with Breezi? Reach us directly at the email below.</p>
+
+      <div class="email-box">
+        <p class="email-label">Support Email</p>
+        <a class="email-link" href="mailto:skeletonxtrme@gmail.com">skeletonxtrme@gmail.com</a>
+      </div>
+
+      <p class="more-info-title">For more information:</p>
+      <ul class="links">
+        <li><a href="https://ashishbhukal11.github.io/term_and_conditions/" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a></li>
+        <li><a href="https://ashishbhukal11.github.io/privacy_policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
